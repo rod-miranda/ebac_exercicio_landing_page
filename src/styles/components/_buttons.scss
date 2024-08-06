@@ -10,7 +10,11 @@
 
     &--primary {
         color: variables.$textColor;
-        background-color: variables.$purple;
+        background-color: variables.$red;
+    }
+
+    &:hover {
+        background-color: #800f0f;
     }
 
     @media (max-width: 1024px) {

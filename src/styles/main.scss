@@ -25,5 +25,17 @@
     @media (max-width: 640px) {
         max-width: 80%;
     }
+}
 
+hr {
+    background-color: #000000;
+    height: 1px;
+    border: 0;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    background-color: #3a1009;
+    padding: 10px 0;
 }
